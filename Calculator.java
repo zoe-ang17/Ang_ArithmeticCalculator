@@ -19,9 +19,14 @@ public class Calculator {
      
             result = num1 * num2;
             System.out.println("Multiplication: " + result);
-     
+
+        if(num1 != 0 && num2 != 0) {
             result = (double) num1 / num2;
             System.out.println("Division: " + result);
+        }
+        else{
+            System.out.print("It is not possible to divide by 0!!");
+        }
             
     }
 }
